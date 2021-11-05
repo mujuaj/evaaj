@@ -1,12 +1,12 @@
 class script(object):
     START_TXT = """𝙷𝙴𝙻𝙾 {}\n
- 𝑰 𝒂𝒎 <a href="https://t.me/worldmoviesaj" >MOVIE HUB HD BOT</a>\n\n𝐘𝐎𝐔 𝐂𝐀𝐍 𝐆𝐄𝐓 𝐅𝐈𝐋𝐄𝐒 𝐅𝐑𝐎𝐌\n <a href="https://t.me/AJmovieLINKS" >𝗠𝗢𝗩𝗜𝗘 𝗛𝗨𝗕 𝗛𝗗⬛️◼️◾️▪️</a>\n𝗬𝗼𝘂 𝗺𝘂𝘀𝘁 𝗷𝗼𝗶𝗻 @AJmovieLINKS\n\n𝗠𝘆 𝗢𝘄𝗻𝗲𝗿 🚀<a href="https://t.me/avataradorn" >𝘼.𝙅</a>"""
+ 𝑰 𝒂𝒎 <a href="https://t.me/worldmoviesaj" >MOVIE HUB HD BOT</a>𝐘𝐎𝐔 𝐂𝐀𝐍 𝐆𝐄𝐓 𝐅𝐈𝐋𝐄𝐒 𝐅𝐑𝐎𝐌\n <a href="https://t.me/AJmovieLINKS" >𝗠𝗢𝗩𝗜𝗘 𝗛𝗨𝗕 𝗛𝗗⬛️◼️◾️▪️</a>\n𝗬𝗼𝘂 𝗺𝘂𝘀𝘁 𝗷𝗼𝗶𝗻 @AJmovieLINKS\n\n𝗠𝘆 𝗢𝘄𝗻𝗲𝗿 🚀<a href="https://t.me/avataradorn" >𝘼.𝙅</a>"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
+    ABOUT_TXT = """✯ 𝗠𝘆 𝗻𝗮𝗺𝗲: {}
 ✯ 𝗖𝗿𝗲𝗮𝘁𝗼𝗿: <a href=url='https://t.me/avataradorn'>AJ</a>
-✯ 𝗟𝗶𝗯𝗿𝗮𝗿𝘆: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
+✯ 𝗟𝗶𝗯𝗿𝗮𝗿𝘆: PYPROGRAM
+✯ 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲: PYTHON
 ✯ 𝗕𝗢𝗧 𝗦𝗘𝗥𝗩𝗘𝗥: @AJmovieLINKS
 ✯ 𝗠𝗬 𝗕𝗥𝗔𝗜𝗡 : v1.0.1 [ AJ]"""
     SOURCE_TXT = """<b>NOTE:</b>
