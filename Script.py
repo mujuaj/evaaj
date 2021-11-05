@@ -1,15 +1,14 @@
 class script(object):
-    START_TXT = """𝙷𝙴𝙻𝙾 {}\n\n
- 𝑰 𝒂𝒎 <a href="https://t.me/worldmoviesaj" >MOVIE HUB HD BOT</a>\n–▫◽◻⬜A.J⬛◼◾▪\n\n𝑯𝒆𝒓𝒆 𝒚𝒐𝒖 𝒄𝒂𝒏 𝒈𝒆𝒕 𝒇𝒊𝒍𝒆𝒔 𝒇𝒓𝒐𝒎\n\n <a href="https://t.me/AJmovieLINKS" >𝗠𝗢𝗩𝗜𝗘 𝗛𝗨𝗕 𝗛𝗗⬛️◼️◾️▪️</a> \n𝗬𝗼𝘂 𝗺𝘂𝘀𝘁 𝗷𝗼𝗶𝗻 @AJmovieLINKS"""
+    START_TXT = """𝙷𝙴𝙻𝙾 {}
+ 𝑰 𝒂𝒎 <a href="https://t.me/worldmoviesaj" >MOVIE HUB HD BOT</a>\n–▫◽◻⬜A.J⬛◼◾▪\n\n𝑯𝒆𝒓𝒆 𝒚𝒐𝒖 𝒄𝒂𝒏 𝒈𝒆𝒕 𝒇𝒊𝒍𝒆𝒔 𝒇𝒓𝒐𝒎 <a href="https://t.me/AJmovieLINKS" >𝗠𝗢𝗩𝗜𝗘 𝗛𝗨𝗕 𝗛𝗗⬛️◼️◾️▪️</a>\n𝗬𝗼𝘂 𝗺𝘂𝘀𝘁 𝗷𝗼𝗶𝗻 @AJmovieLINKS\n\n𝗠𝘆 𝗢𝘄𝗻𝗲𝗿  <a href="https://t.me/avataradorn" >𝘼.𝙅</a>"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=url='https://t.me/worldmoviesaj'>AJ</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
+✯ 𝗖𝗿𝗲𝗮𝘁𝗼𝗿: <a href=url='https://t.me/avataradorn'>AJ</a>
+✯ 𝗟𝗶𝗯𝗿𝗮𝗿𝘆: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
+✯ 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
+✯ 𝗕𝗢𝗧 𝗦𝗘𝗥𝗩𝗘𝗥: @AJmovieLINKS
+✯ 𝗠𝗬 𝗕𝗥𝗔𝗜𝗡 : v1.0.1 [ AJ]"""
     SOURCE_TXT = """<b>NOTE:</b>
 - AJ BOT is a open source project. 
 - Source - url='https://t.me/worldmoviesaj'  
