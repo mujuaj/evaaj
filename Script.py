@@ -1,11 +1,6 @@
 class script(object):
     START_TXT = """𝙷𝙴𝙻𝙾 {},
-I am [MOVIE HUB HD BOT](https://t.me/worldmoviesaj)
-–▫◽◻⬜A.J⬛◼◾▪ 
-Here you can get files from
-[𝗠𝗢𝗩𝗜𝗘 𝗛𝗨𝗕 𝗛𝗗⬛️◼️◾️▪️](https://t.me/worldmoviesaj) 
-Use the below buttons to search files.
-𝗬𝗼𝘂 𝗺𝘂𝘀𝘁 𝗷𝗼𝗶𝗻 @AJmovieLINKS"""
+ <a href="https://t.me/metestaj" >⬞</a>"""
 
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
