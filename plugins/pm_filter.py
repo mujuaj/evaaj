@@ -73,7 +73,7 @@ async def next_page(bot, query):
 
     ident, req, key, offset = query.data.split("_")
     if int(req) not in [query.from_user.id, 0]:
-        return await query.answer("oKda", show_alert=True)
+        return await query.answer("oK da aj", show_alert=True)
     try:
         offset = int(offset)
     except:
@@ -159,7 +159,7 @@ async def advantage_spoll_choker(bot, query):
         k = (movie, files, offset, total_results)
         await auto_filter(bot, query, k)
     else:
-        k = await query.message.edit('This Movie Not Found In DataBase')
+        k = await query.message.edit('✪ ✪ 𝗬𝗼𝘂 𝗡𝗲𝗲𝗱 𝗧𝗼 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗔𝗜𝗡 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 @AJmovieLINKS')
         await asyncio.sleep(10)
         await k.delete()
 
@@ -702,8 +702,8 @@ async def advantage_spell_chok(msg):
                     callback_data=f"spolling#{user}#{k}",
                 )
             ] for k, movie in enumerate(movielist)]
-    btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply('I cant find anything related to that\nDid you mean any one of these?', reply_markup=InlineKeyboardMarkup(btn))
+    btn.append([InlineKeyboardButton(text="𝗖𝗟𝗢𝗦𝗘", callback_data=f'spolling#{user}#close_spellcheck')])
+    await msg.reply('𝗜 𝗰𝗮𝗻𝘁 𝗳𝗶𝗻𝗱 𝗮𝗻𝘆𝘁𝗵𝗶𝗻𝗴 𝗿𝗲𝗹𝗮𝘁𝗲𝗱 𝘁𝗼 𝘁𝗵𝗮𝘁\n𝐃𝐢𝐝 𝐲𝐨𝐮 𝐦𝐞𝐚𝐧 𝐚𝐧𝐲 𝐨𝐧𝐞 𝐨𝐟 𝐭𝐡𝐞𝐬𝐞?', reply_markup=InlineKeyboardMarkup(btn))
     
 
 
