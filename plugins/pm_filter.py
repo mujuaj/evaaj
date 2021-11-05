@@ -95,7 +95,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"😃[😃{get_size(file.file_size)}😊]😊 {file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f"🎪[{get_size(file.file_size)}]🚀{file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
             ]
             for file in files
@@ -104,10 +104,10 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"😊{file.file_name}😁", callback_data=f'files#{file.file_id}'
+                    text=f"🎪{file.file_name}🚀", callback_data=f'files#{file.file_id}'
                 ),
                 InlineKeyboardButton(
-                    text=f"😁{get_size(file.file_size)}😊",
+                    text=f"🎪{get_size(file.file_size)}🚀",
                     callback_data=f'files_#{file.file_id}',
                 ),
             ]
@@ -125,12 +125,12 @@ async def next_page(bot, query):
             [InlineKeyboardButton("𝗕𝗔𝗖𝗞", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"📃 𝗣𝗔𝗚𝗘𝗦 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages")]
         )
     elif off_set is None:
-        btn.append([InlineKeyboardButton(f"🗓 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"), InlineKeyboardButton("𝗡𝗘𝗫𝗧", callback_data=f"next_{req}_{key}_{n_offset}")])
+        btn.append([InlineKeyboardButton(f"☄{round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"), InlineKeyboardButton("𝗡𝗘𝗫𝗧", callback_data=f"next_{req}_{key}_{n_offset}")])
     else:
         btn.append(
             [
                 InlineKeyboardButton("𝗕𝗔𝗖𝗞", callback_data=f"next_{req}_{key}_{off_set}"),
-                InlineKeyboardButton(f"🗓 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"),
+                InlineKeyboardButton(f" ☄ {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"),
                 InlineKeyboardButton("𝗡𝗘𝗫𝗧", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
@@ -446,11 +446,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/worldmoviesaj'),
-            InlineKeyboardButton('♥️ Source', url='https://t.me/worldmoviesaj')
+            InlineKeyboardButton('╽𝗠𝗼𝗿𝗲 𝗠𝗼𝘃𝗶𝗲𝘀╽', url='https://t.me/worldmoviesaj'),
+            InlineKeyboardButton('𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘', url='https://t.me/AJmovieLINKS')
             ],[
-            InlineKeyboardButton('🏠 Home', callback_data='start'),
-            InlineKeyboardButton('🔐 Close', callback_data='close_data')
+            InlineKeyboardButton('🏠 𝗛𝗢𝗠𝗘', callback_data='start'),
+            InlineKeyboardButton('🔐 𝗖𝗟𝗢𝗦𝗘', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
