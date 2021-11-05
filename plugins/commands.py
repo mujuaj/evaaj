@@ -17,10 +17,10 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/worldmoviesaj')
+                InlineKeyboardButton('╽𝗠𝗼𝗿𝗲 𝗠𝗼𝘃𝗶𝗲𝘀╽', url='https://t.me/worldmoviesaj')
             ],
             [
-                InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('┇𝗛𝗘𝗟𝗣┇', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -37,11 +37,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('𝗝𝗢𝗜𝗡 𝗠𝗔𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟', url=f'https://t.me/AJmovieLINKS')
             ],[
-            InlineKeyboardButton('🔍╽𝗠𝗼𝗿𝗲 𝗠𝗼𝘃𝗶𝗲𝘀╽', url=f'https://t.me/worldmoviesaj'),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/worldmoviesaj')
+            InlineKeyboardButton('╽𝗠𝗼𝗿𝗲 𝗠𝗼𝘃𝗶𝗲𝘀╽', url=f'https://t.me/worldmoviesaj'),
+            InlineKeyboardButton('𝗙𝗢𝗥 𝗦𝗘𝗥𝗜𝗘𝗦', url='https://t.me/joinchat/NLU1y90I1L0yYmI1')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('┇𝗛𝗘𝗟𝗣┇', callback_data='help'),
+            InlineKeyboardButton('╏𝗔𝗕𝗢𝗨𝗧╏', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -76,13 +76,13 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay"]:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('𝗝𝗢𝗜𝗡 𝗠𝗔𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟', url=f'https://t.me/worldmoviesaj')
             ],[
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/worldmoviesaj')
+            InlineKeyboardButton('╽𝗠𝗼𝗿𝗲 𝗠𝗼𝘃𝗶𝗲𝘀╽', url=f'https://t.me/worldmoviesaj'),
+            InlineKeyboardButton('𝗙𝗢𝗥 𝗦𝗘𝗥𝗜𝗘𝗦', url='https://t.me/joinchat/NLU1y90I1L0yYmI1')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('┇𝗛𝗘𝗟𝗣┇', callback_data='help'),
+            InlineKeyboardButton('╏𝗔𝗕𝗢𝗨𝗧╏', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
