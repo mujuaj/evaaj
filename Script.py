@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """𝙷𝙴𝙻𝙾 {},
- ahref="https://t.me/worldmoviesaj" >MOVIE HUB HD BOT</a>\n–▫◽◻⬜A.J⬛◼◾▪ \n<ahref="https://t.me/AJmovieLINKS" 𝗠𝗢𝗩𝗜𝗘 𝗛𝗨𝗕 𝗛𝗗⬛️◼️◾️▪️</a>\n–▫◽◻⬜A.J⬛◼◾▪ \n\nH\n\n
+ <a href="https://t.me/worldmoviesaj" >MOVIE HUB HD BOT</a>\n\n <a href="https://t.me/AJmovieLINKS" 𝗠𝗢𝗩𝗜𝗘 𝗛𝗨𝗕 𝗛𝗗⬛️◼️◾️▪️</a>\n–▫◽◻⬜A.J⬛◼◾▪ \n\nH\n\n
 𝗬𝗼𝘂 𝗺𝘂𝘀𝘁 𝗷𝗼𝗶𝗻 @AJmovieLINKS"""
 
     HELP_TXT = """𝙷𝙴𝚈 {}
