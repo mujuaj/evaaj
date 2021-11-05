@@ -40,7 +40,7 @@ async def start(client, message):
             InlineKeyboardButton('╽𝗠𝗼𝗿𝗲 𝗠𝗼𝘃𝗶𝗲𝘀╽', url=f'https://t.me/worldmoviesaj'),
             InlineKeyboardButton('𝗙𝗢𝗥 𝗦𝗘𝗥𝗜𝗘𝗦', url='https://t.me/joinchat/NLU1y90I1L0yYmI1')
             ],[
-            InlineKeyboardButton('┇𝗛𝗘𝗟𝗣┇', callback_data='help'),
+            InlineKeyboardButton('┇𝗛𝗘𝗟𝗣┇', url=f'https://t.me/AJmovieLINKS'),
             InlineKeyboardButton('╏𝗔𝗕𝗢𝗨𝗧╏', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
