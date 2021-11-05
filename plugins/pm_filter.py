@@ -413,13 +413,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('𝗝𝗢𝗜𝗡 𝗠𝗔𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟', url=f'https://t.me/AJmovieLINKS')
             ],[
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/worldmoviesaj')
+            InlineKeyboardButton('╽𝗠𝗼𝗿𝗲 𝗠𝗼𝘃𝗶𝗲𝘀╽', url=f'https://t.me/worldmoviesaj'),
+            InlineKeyboardButton('𝗙𝗢𝗥 𝗦𝗘𝗥𝗜𝗘𝗦', url='https://t.me/joinchat/NLU1y90I1L0yYmI1')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('┇𝗛𝗘𝗟𝗣┇', url=f'https://t.me/AJmovieLINKS'),
+            InlineKeyboardButton('╏𝗔𝗕𝗢𝗨𝗧╏', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -616,11 +616,11 @@ async def auto_filter(client, msg, spoll=False):
         BUTTONS[key] = search
         req = message.from_user.id if message.from_user else 0
         btn.append(
-            [InlineKeyboardButton(text=f"🗓 1/{round(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="NEXT ⏩",callback_data=f"next_{req}_{key}_{offset}")]
+            [InlineKeyboardButton(text=f"☄1/{round(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="𝗡𝗘𝗫𝗧",callback_data=f"next_{req}_{key}_{offset}")]
         )
     else:
         btn.append(
-            [InlineKeyboardButton(text="🗓 1/1",callback_data="pages")]
+            [InlineKeyboardButton(text="☄1/1",callback_data="pages")]
         )
     imdb = await get_poster(search) if IMDB else None
     if imdb:
