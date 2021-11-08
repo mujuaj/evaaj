@@ -159,7 +159,7 @@ async def advantage_spoll_choker(bot, query):
         k = (movie, files, offset, total_results)
         await auto_filter(bot, query, k)
     else:
-        k = await query.message.edit('<a href="https://telegra.ph/file/3f9cedc2012141e3a7f0a.jpg">⬞</a>🇲‌🇴‌🇻‌🇮‌🇪‌ 🇭‌🇺‌🇧‌ 🇭‌🇩‌  \n\n𝗦𝗲𝗮𝗿𝗰𝗵 ♝ google.com ♝ \n\n𝗙𝗶𝗻𝗱 𝘁𝗵𝗲 𝗖𝗼𝗿𝗿𝗲𝗰𝘁 𝗦𝗽𝗲𝗹𝗹𝗶𝗻𝗴 𝗼𝗳\n◻⬜{query}⬛◼ \n𝗮𝗻𝗱 𝗬𝗲𝗮𝗿 𝙊𝙛 𝙧𝙚𝙡𝙚𝙖𝙨𝙚. \n\n⚠️𝗧𝘆𝗽𝗲 𝘁𝗵𝗮𝘁 𝗶𝗻 𝗚𝗿𝗼𝘂𝗽 𝘁𝗼 𝗴𝗲𝘁 𝘁𝗵𝗲 𝗙𝗶𝗹𝗲𝘀 (𝐜𝐨𝐫𝐫𝐞𝐜𝐭 𝐦𝐨𝐯𝐢𝐞 𝐧𝐚𝐦𝐞  𝐬𝐚𝐦𝐞 𝐚𝐬 𝐢𝐧 𝐠𝐨𝐨𝐠𝐥𝐞)\n\n𝗧𝗜𝗣: 𝐂𝐎𝐏𝐘 𝐏𝐀𝐒𝐓𝐄 𝐓𝐇𝐄 𝐍𝐀𝐌𝐄 𝐅𝐑𝐎𝐌 𝐆𝐎𝐎𝐆𝐋𝐄🙃\n\n𝐈𝐅 𝐘𝐎𝐔 𝐒𝐓𝐈𝐋𝐋 𝐃𝐈𝐃𝐍𝐓 𝐆𝐄𝐓 𝐓𝐇𝐄 𝐑𝐄𝐒𝐔𝐋𝐓𝐒,𝗧𝗵𝗲 𝗳𝗶𝗹𝗲 𝗶𝘀 𝗡𝗼𝘁 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 ☺️')
+        k = await query.message.edit('<a href="https://telegra.ph/file/3f9cedc2012141e3a7f0a.jpg">⬞</a>🇲‌🇴‌🇻‌🇮‌🇪‌ 🇭‌🇺‌🇧‌ 🇭‌🇩‌  \n\n𝗦𝗲𝗮𝗿𝗰𝗵 ♝ google.com ♝ \n\n𝗙𝗶𝗻𝗱 𝘁𝗵𝗲 𝗖𝗼𝗿𝗿𝗲𝗰𝘁 𝗦𝗽𝗲𝗹𝗹𝗶𝗻𝗴 𝗮𝗻𝗱 𝗬𝗲𝗮𝗿 𝙊𝙛 𝙧𝙚𝙡𝙚𝙖𝙨𝙚 𝗼𝗳 𝘆𝗼𝘂𝗿 𝗥𝗲𝗾𝘂𝗲𝘀𝘁. \n\n⚠️𝗧𝘆𝗽𝗲 𝘁𝗵𝗮𝘁 𝗶𝗻 𝗚𝗿𝗼𝘂𝗽 𝘁𝗼 𝗴𝗲𝘁 𝘁𝗵𝗲 𝗙𝗶𝗹𝗲𝘀 (𝐜𝐨𝐫𝐫𝐞𝐜𝐭 𝐦𝐨𝐯𝐢𝐞 𝐧𝐚𝐦𝐞  𝐬𝐚𝐦𝐞 𝐚𝐬 𝐢𝐧 𝐠𝐨𝐨𝐠𝐥𝐞)\n\n𝗧𝗜𝗣: 𝐂𝐎𝐏𝐘 𝐏𝐀𝐒𝐓𝐄 𝐓𝐇𝐄 𝐍𝐀𝐌𝐄 𝐅𝐑𝐎𝐌 𝐆𝐎𝐎𝐆𝐋𝐄🙃\n\n𝐈𝐅 𝐘𝐎𝐔 𝐒𝐓𝐈𝐋𝐋 𝐃𝐈𝐃𝐍𝐓 𝐆𝐄𝐓 𝐓𝐇𝐄 𝐑𝐄𝐒𝐔𝐋𝐓𝐒,𝗧𝗵𝗲 𝗳𝗶𝗹𝗲 𝗶𝘀 𝗡𝗼𝘁 𝗔𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 ☺️')
         await asyncio.sleep(40)
         await k.delete()
 
