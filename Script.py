@@ -8,7 +8,7 @@ class script(object):
 ✯ 𝗟𝗶𝗯𝗿𝗮𝗿𝘆: PYPROGRAM
 ✯ 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲: PYTHON
 ✯ 𝗕𝗢𝗧 𝗦𝗘𝗥𝗩𝗘𝗥: @AJmovieLINKS
-✯ 𝗠𝗬 𝗕𝗥𝗔𝗜𝗡 : v1.0.1 [ AJ]"""
+✯ 𝗠𝗬 𝗕𝗥𝗔𝗜𝗡 : v1.0.1 AJ"""
     SOURCE_TXT = """<b>NOTE:</b>
 - AJ BOT is a open source project. 
 - Source - url='https://t.me/worldmoviesaj'  
